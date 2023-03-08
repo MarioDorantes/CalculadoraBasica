@@ -1,0 +1,61 @@
+/*Estilo a etiqueta directa de HTML*/
+header {
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 20px;
+}
+
+/*Estilo a nivel de clase*/
+.contenido {
+    margin: auto;
+    width: 40%;
+    border: 3px solid #1abc9c;
+    padding: 10px;
+}
+
+/*Estilo a etiqueta directa de HTML*/
+table {
+    width: 100%;
+}
+
+/*Estilo a etiqueta directa de HTML solo para un tipo en especifico*/
+input[type=button] {
+    background-color: #EAEAEA;
+    border: none;
+    color: black;
+    width: 100%;
+    height: 40px;
+    transition-duration: 0.2s;
+}
+
+/*Estilo a etiqueta directa de HTML solo para un tipo en especifico adicionalmente que tenga un ESTADO EN ESPECIFICO*/
+input[type=button]:hover {
+    background-color: #B7D7F9;
+}
+
+/*Estilo a un componente directo a partir de su ID*/
+#txt_resultado{
+    width: 100%;
+    height: 50px;
+    border: none;
+    text-align: right;
+    color: black;
+    font-size: 20px;
+    background-color: #A4F7FF;
+}
+
+/*Estilo a un componente directo a partir de su ID*/
+#b_ig {
+    background-color: #C6F9B7;
+    border: none;
+    color: black;
+    width: 100%;
+    height: 40px;
+    transition-duration: 0.2s;
+}
+
+/*Estilo a un componente directo a partir de su ID en un estado del componente*/
+#b_ig:hover {
+    background-color: #66CF47;
+}
